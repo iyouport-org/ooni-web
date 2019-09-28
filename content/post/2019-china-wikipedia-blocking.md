@@ -1,10 +1,12 @@
 ---
 title: "China is now blocking all language editions of Wikipedia"
-author: "iyouport.org, Sukhbir Singh (Open Web Fellow, Mozilla Foundation), Arturo Filastò (OONI), Maria Xynou (OONI)"
+author: "iyouport.org, Open Culture Foundation (OCF), Sukhbir Singh (Open Web Fellow, Mozilla Foundation), Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-05-04"
-tags: ["china", "wikipedia"]
+tags: ["china", "wikipedia", "country-cn"]
 categories: ["report"]
 ---
+
+[translation: 中国封锁了所有语言版本的维基百科](/post/2019-china-wikipedia-blocking.zh/)
 
 China recently started blocking all language editions of Wikipedia. Previously, the blocking was limited to the Chinese language edition of Wikipedia (zh.wikipedia.org), but has now expanded to include all `*.wikipedia.org` language editions.
 

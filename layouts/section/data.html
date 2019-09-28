@@ -1,0 +1,52 @@
+{{ .Scratch.Set "basePrefix" "../../" }}
+{{ partial "head.html" . }}
+
+<div class="container">
+
+  <nav>
+    <div class="col-1">
+      <a href="/">
+        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
+        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
+      </a>
+    </div>
+    <div class="col-2">
+      {{ partial "nav.html" . }}
+    </div>
+  </nav>
+
+  <main class="col-3">
+    <div class="row" style="margin-top: 40px">
+      <div class="col-3">
+        <a href="https://explorer.ooni.io">
+        <img src="/data/ooni-explorer.png" id="ooni-explorer" />
+        </a>
+        <p style="padding-top: 30px">
+        <a href="https://explorer.ooni.io/">OONI Explorer</a>
+        is a global map which provides a location to explore and
+        interact with all of the network measurements that have been collected
+        through OONI tests from 2012 until today.
+        </p>
+      </div>
+      <div class="col-3">
+        <a href="https://api.ooni.io"><img src="/data/ooni-api.png" id="ooni-api"/></a>
+        <p style="padding-top: 30px">
+        We offer a measurement API that allows researchers to perform their own analysis of OONI data.
+        You can read more about our data format inside of <a
+          href="https://github.com/TheTorProject/ooni-spec">ooni-spec</a>
+        and access the
+        <a
+          href="https://api.ooni.io/">OONI API
+          by clicking here</a>.</p>
+        Learn how to setup your own instance of the <a
+          href="https://github.com/ooni/sysadmin/blob/master/docs/metadb-sharing.md">OONI
+          PostgreSQL MetaDB</a>.
+        <p>See the following blog post for all the options to <a
+          href="/post/mining-ooni-data">mine OONI data</a>.</p>
+      </div>
+    </div>
+
+  </main>
+
+</div>
+{{ partial "footer.html" . }}
